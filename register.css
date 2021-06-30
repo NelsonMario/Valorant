@@ -1,0 +1,184 @@
+@font-face {font-family:"VALORANT";
+    src:url("asset//VALORANT//Valorant_Font.eot?") format("eot"),
+    url("asset//VALORANT//Valorant_Font.woff") format("woff"),
+    url("asset//VALORANT//Valorant_Font.ttf") format("truetype"),
+    url("asset//VALORANT//Valorant_Font.svg") format("svg");
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {font-family:"Muli";
+src: url("asset//Muli//Muli-Italic-VariableFont_wght.ttf") format("truetype");
+font-weight:normal;
+font-style:normal;
+}
+
+@font-face {
+font-family: "DINNext";
+src: url("asset/DINNext/654-font.otf") format("opentype");
+font-weight:normal;
+font-style:normal;
+}
+
+@font-face {
+font-family: "DINNext";
+src: url("asset/DINNext/654-font.otf") format("opentype");
+font-weight:normal;
+font-style:normal;
+}
+
+@font-face {
+font-family:"tungsten";
+src:url("asset/TungstenFont/@font-face/tungsten.eot") format("eot"),
+url("asset/TungstenFont/@font-face/tungsten.woff") format("woff"),
+url("asset/TungstenFont/@font-face/tungsten.ttf") format("truetype"),
+url("asset/TungstenFont/@font-face/tungsten.woff2") format("woff2");
+font-weight:normal;
+font-style:normal;
+}
+
+@font-face {
+font-family:"tungsten-bold";
+src:url("asset/TungstenFont/Tungsten-Bold/Tungsten-Bold.ttf") format("truetype");
+font-weight:normal;
+font-style:normal;
+}
+
+
+
+:root{
+font-size: 16px;
+font-family: 'Open Sans';
+--text-primary: #b6b6b6;
+--text-secondary: #ececec;
+--bg-primary: #23232e;
+--bg-secondary: #141418;
+--main-red-color:  #FF4655;
+--transition-speed: 650ms;
+}
+
+a{
+text-decoration: none;
+color: white;
+}
+
+html{
+scroll-behavior: smooth;
+}
+
+body{
+margin: 0;
+padding: 0;
+color: black;
+background-image: url(./asset/characters-background.jpg);
+font-family: 'DINNext';
+overflow-x: hidden;
+
+}
+
+body::-webkit-scrollbar{
+width: 0.3rem;
+}
+
+body::-webkit-scrollbar-track{
+background: #1e1e1e;
+}
+
+body::-webkit-scrollbar-thumb{
+background: #6649b8;
+}
+
+section{
+    display: flex;
+    animation: fadein 1s;
+}
+
+.left{
+    font-family: 'Valorant';
+    font-size: 6rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50vw;
+    height: 100vh;
+}
+
+.top{
+    display: flex;
+    font-size:50px;
+    width: fit-content;
+    transition:transform .4s ease-in-out;
+    cursor: pointer;
+
+}
+.top:hover {
+    transform:scale(-1, 1)
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+
+.form-header{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.form{
+    border-radius: 8px;
+    background-color: white;
+    padding: 15px 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input[type=text], input[type=date], input[type=password], select {
+    width: 100%;
+    padding: 10px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.input-check-box{
+    margin: 20px 0px;
+}
+
+#submit-button{
+    color: black;
+    background-color: var(--main-red-color);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
