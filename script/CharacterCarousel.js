@@ -1,27 +1,27 @@
 var characterName = ["Reyna", "Phoenix", "Raze", "Omen", "Jett"]
 var character = [
     {
-        path: '../Valorant/asset/character/Reyna.png',
+        path: '../asset/character/Reyna.png',
         role: 'DUELIST',
         biography: 'Forged in the heart of Mexico, Reyna dominates single combat, popping off with each kill she scores. Her capability is only limited by her raw skill, making her highly dependent on performance.'
     },
     {
-        path: '../Valorant/asset/character/Phoenix_artwork.png',
+        path: '../asset/character/Phoenix_artwork.png',
         role: 'DUELIST',
         biography: 'Hailing from the U.K., Phoenix\'s star power shines through in his fighting style, igniting the battlefield with flash and flare. Whether he\'s got backup or not, he\'ll rush into a fight on his own terms.'
     },
     {
-        path: '../Valorant/asset/character/Raze_artwork.png',
+        path: '../asset/character/Raze_artwork.png',
         role: 'DUELIST',
         biography: 'Raze explodes out of Brazil with her big personality and big guns. With her blunt-force-trauma playstyle, she excels at flushing entrenched enemies and clearing tight spaces with a generous dose of “boom.”'
     },
     {
-        path: '../Valorant/asset/character/Omen.png',
+        path: '../asset/character/Omen.png',
         role: 'CONTROLLER',
         biography: 'A phantom of a memory, Omen hunts in the shadows. He renders enemies blind, teleports across the field, then lets paranoia take hold as his foe scrambles to learn where he might strike next.'
     },
     {
-        path: '../Valorant/asset/character/Jett_artwork.png',
+        path: '../asset/character/Jett_artwork.png',
         role: 'DUELIST',
         biography: 'Representing her home country of South Korea, Jett\'s agile and evasive fighting style lets her take risks no one else can. She runs circles around every skirmish, cutting enemies before they even know what hit them.'
     }
