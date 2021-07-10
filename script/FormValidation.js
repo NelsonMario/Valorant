@@ -10,7 +10,7 @@ btn.onclick = function(){
     let today = new Date()
     email.style.borderColor = "#ccc"
     if(!email.value.endsWith("gmail.com")){
-        alert('Invalid Email')
+        alert('Invalids Email')
         email.style.borderColor = "red"
         return
     }
